@@ -16,11 +16,12 @@ public class MovieDAOImpl implements MovieDAO {
     @Inject
     private SqlSession sqlSession;
     
+    //등록된 쿼리문을 Namespace에 저장
     private static final String Namespace = "com.pbl.mybatis.sql.test";
     
     @Override
     public List<MovieVO> selectMovie() throws Exception {
- 
+    	//해당쿼리문으로 List에 넣고 리턴
         return sqlSession.selectList(Namespace+".selectMovie");
     }
  

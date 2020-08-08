@@ -17,6 +17,7 @@
             </tr>
         </thead>
         <tbody>
+        <!-- Controller에서 지정한 model name을 jsp에서 ${name} 으로 사용 -->
             <c:forEach items="${movieList}" var="movie">
                 <tr>
                     <td>${movie.movie_name}</td>
