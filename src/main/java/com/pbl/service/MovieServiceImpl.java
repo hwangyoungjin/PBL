@@ -19,5 +19,5 @@ public class MovieServiceImpl implements MovieService {
     public List<MovieVO> selectMovie() throws Exception {
  
         return dao.selectMovie();
-    }
+    } 
 }
