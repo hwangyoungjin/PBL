@@ -21,3 +21,8 @@
 	- mybatis-config.xml, logback.xml, test.xml 작성
 	- 데이터 조회/처리를 위한 JAVA코드(DAO,Service,VO,Controller)를 작성
 	- home.jsp 수정
+
+[2주차 : 20.08.11 ~ 20.08.17]
+---
+1. Spring에서 js 사용방법 
+: https://m.blog.naver.com/PostView.nhn?blogId=p952973&logNo=220981603377&proxyReferer=https:%2F%2Fwww.google.com%2F
