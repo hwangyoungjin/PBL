@@ -24,5 +24,18 @@
 
 [2주차 : 20.08.11 ~ 20.08.17]
 ---
-1. Spring에서 js 사용방법 
-: https://m.blog.naver.com/PostView.nhn?blogId=p952973&logNo=220981603377&proxyReferer=https:%2F%2Fwww.google.com%2F
+1. Dynamic web project : 차트테스트 [완료]
+	- 이클립스 dynamic web project 생성
+	- webcontent 안에 html 파일 생성 후 d3.js example에서 가져온 html 파일을 복사
+	- 'D3 오픈소스 js라이브러리' : https://d3js.org  
+	- webcontent 안에 data.tvs (tsv란 tab으로 데이터를 구분하는 문서) 파일 저장
+	- 1주차 서버구성과 동일하게 Tomcat서버 구성 후 localhost:8080/PBL_Chart/chart1.html으로 테스트
+	- data.tvs 수정 결과 테스트하여 반영 확인
+
+2. 차트테스트 2 [완료]
+	- 'D3 Gallery' : https://github.com/d3/d3/wiki/Gallery
+	- 'd3.js example' : https://bl.ocks.org/kerryrodden/766f8f6d31f645c39f488a0befa1e3c8
+	- localhost:8080/PBL_Chart/chart2.html으로 테스트
+	<!--code(키보드 숫가 1왼쪽 ` 사용)-->
+	` 오류 : F12 -> Network -> chart2.html -> Consol : GET http://localhost:8080/PBL_Chart/visit-sequences.csv 404 `
+	` 해결 : visit-sequences.csv 다운 https://gist.github.com/kerryrodden/7090426#file-visit-sequences-csv `

@@ -11,7 +11,7 @@ import com.pbl.vo.MovieVO;
 
 @Repository
 //SqlSession을 통해 등록된 SQL 쿼리문을 실행하여 List를 리턴
-pub lic class MovieDAOImpl implements MovieDAO {
+public class MovieDAOImpl implements MovieDAO {
  
     @Inject
     private SqlSession sqlSession;
