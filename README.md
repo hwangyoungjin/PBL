@@ -39,3 +39,5 @@
 	- **localhost:8080/PBL_Chart/chart2.html** 으로 테스트
 	- **오류** : F12 -> Network -> chart2.html -> Consol  `GET http://localhost:8080/PBL_Chart/visit-sequences.csv 404`
 	- **해결** : [visit-sequences.csv 다운](https://gist.github.com/kerryrodden/7090426#file-visit-sequences-csv)
+
+3. Chart API Interface 가이드(.docx) 작성 [완료]
