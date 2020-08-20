@@ -158,7 +158,21 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>        
+		</dependency>
+		
+		 <!-- jackson -->
+		 <!--  jackson 관련 library를 추가 후 저장하면 자동으로 library를 mvnrepository에서 가져옵니다 -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+		        
 	</dependencies>
     <build>
         <plugins>

@@ -41,3 +41,25 @@
 	- **해결** : [visit-sequences.csv 다운](https://gist.github.com/kerryrodden/7090426#file-visit-sequences-csv)
 
 3. Chart API Interface 가이드(.docx) 작성 [완료]
+
+[3주차 : 20.08.19~20.08.23]
+---
+1. Spring : RestController을 이용한 데이터 처리(jackson) [완료]
+	1. json을 이용하기 위해 pom.xml에 jackson 관련 library를 추가
+	2. restController를 구현하기 위한 restController.java 파일작성
+		- **localhost:8080/restex** 으로 테스트 완료
+
+2. DataBinding[**뷰와 모델을 하나로 연결**]을 위한 화면 구조 변경, 자원작성 [완료]
+	1. home.jsp
+		- <tbody> 태그 jstl 문법 제거 및 영역 id 매기기
+		- <head> 태그 안에 common_resource.jsp, home.js, home.css 호출
+		- 영화 목록 가져오기 버튼 추가
+	2. common_resource.jsp, home.js, home.css, jquery-1.12.4.min.js 파일 추가
+		- home.css : 화면 디자인 파일 작성
+		- jquery-1.12.4.min.js : FrontEnd 개발을 쉽게 하기위한 library
+		- home.js : 버튼 클릭 시 데이터(movieList)를 불러와 화면에 바인딩
+			- [[Ajax] 데이터 바인딩](https://blog.naver.com/lgr0406/221701331161)
+			- [jQuery Ajax 생활코딩](https://opentutorials.org/course/1375/6851)
+	3. servlet-context.xml에 'js파일은 js폴더 아래에 css파일은 css폴더 아래에 있음을 명시하는 내용' 추가
+	
+	 
