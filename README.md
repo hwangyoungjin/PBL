@@ -62,4 +62,3 @@
 			- [jQuery Ajax 생활코딩](https://opentutorials.org/course/1375/6851)
 	3. servlet-context.xml에 'js파일은 js폴더 아래에 css파일은 css폴더 아래에 있음을 명시하는 내용' 추가
 	
-	 
