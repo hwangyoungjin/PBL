@@ -45,6 +45,7 @@
 [3주차 : 20.08.19~20.08.23]
 ---
 1. Spring : RestController을 이용한 데이터 처리(jackson) [완료]
+	- [REST API](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
 	1. json을 이용하기 위해 pom.xml에 jackson 관련 library를 추가
 	2. restController를 구현하기 위한 restController.java 파일작성
 		- **localhost:8080/restex** 으로 테스트 완료
