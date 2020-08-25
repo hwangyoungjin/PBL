@@ -5,7 +5,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
- 
+
+button {
+  width: 200px;
+  height: 54px;
+  left: 608px;
+  top: 379px;
+  background-color: #9CEBD5;
+  color:#000000;
+}
+
 table {
     margin: auto;
     text-align: left;
@@ -20,12 +29,15 @@ thead {
  
 thead, tbody {
     display: block;
+    color: #CDFFE7;
 }
  
 th, td {
     padding: 8px 10px;
     border: 1px solid #ddd;
     width: 130px;
+    background-color: #36816C;
+    
 }
  
 tbody {

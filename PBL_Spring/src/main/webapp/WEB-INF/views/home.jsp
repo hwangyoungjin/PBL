@@ -5,9 +5,9 @@
 <head>
 <title>Home</title>
 <!-- home.jsp 파일에서 사용하기 위한 jsp파일, js파일, css파일을 가져올 수 있도록 <head>태그 안에 추가 -->
- <%@include file="./common_resource.jsp"%>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/home.js"></script>
-    <link href="${pageContext.request.contextPath}/resources/css/home.css" rel="stylesheet" />
+ <%@include file="./common_resource.jsp"%> <!-- jsp파일  -->
+    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/home.js"></script> <!-- js파일 -->
+    <link href="${pageContext.request.contextPath}/resources/css/home.css" rel="stylesheet" /> <!-- css파일 -->
 </head>
 <body>
     <h1>Hello world!</h1>

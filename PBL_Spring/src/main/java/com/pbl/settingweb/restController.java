@@ -24,6 +24,7 @@ public class restController {
      */
 	@RequestMapping(value = "/restex")
 	public List<MovieVO>movieList() throws Exception{
+		
 		logger.info("home");
 		
 		List<MovieVO> movieList = service.selectMovie();

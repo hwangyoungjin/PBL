@@ -27,10 +27,8 @@
        	 ref는 다른 bean의 이름을 적는데 이는 참조하겠다는 의미
        	  여기선  dataSource 인데 이때 sqlSessionFactory에서 dataSource를 사용할 수 있다는 의미-->
        <property name="dataSource" ref="dataSource"></property>
-       <property name="configLocation"
-           value="classpath:/mybatis/mybatis-config.xml"></property>
-       <property name="mapperLocations"
-           value="classpath*:/mybatis/sql/*.xml"></property>
+       <property name="configLocation" value="classpath:/mybatis/mybatis-config.xml"></property>
+       <property name="mapperLocations" value="classpath*:/mybatis/sql/*.xml"></property>
    </bean>
 
    <bean id="sqlSession"

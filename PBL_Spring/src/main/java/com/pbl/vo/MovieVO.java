@@ -1,5 +1,18 @@
 package com.pbl.vo;
 
+
+/**
+ * https://jungwoon.github.io/common%20sense/2017/11/16/DAO-VO-DTO/
+ * 
+ * VO(Value Object)는 계층간 데이터 교환을 위한 자바빈즈
+ * 로직을 갖고 있지 않는 순수한 데이터 객체
+ * 
+ * 여기서 말하는 계층간의 Controller, View, Business Layer, Persistent Layer를 말하며 
+ * 각 계층간 데이터 교환을 위한 객체를 DTO 또는 VO라고 부릅니다 그런데 
+ * VO는 DTO와 동일한 개념이지만 read only 속성을 가짐
+ * @author USER
+ *
+ */
 public class MovieVO {
 	private String movie_name;
 	private String director;
