@@ -5,7 +5,9 @@
  */
 
 $( document ).ready(function() {
-// $(document).ready 영역은 html 구조를 먼저 모두 읽은 후 코드를 수행하겠다는 내용
+// $(document).ready(function() { // DOM이 로드되었을 때 실행되어야 하는 코드 }); 
+	//이 구문은 개발자로 하여금 어떤 함수 또는 코드가 호출 또는 실행되는 시점을 스케쥴링할 수 있게 해준다
+	
 //	home.jsp의 태그 및 구조를 모두 읽고 load_movieList 함수를 호출
     load_movielist();
 });

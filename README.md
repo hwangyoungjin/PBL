@@ -62,4 +62,6 @@
 			- [[Ajax] 데이터 바인딩](https://blog.naver.com/lgr0406/221701331161)
 			- [jQuery Ajax 생활코딩](https://opentutorials.org/course/1375/6851)
 	3. servlet-context.xml에 'js파일은 js폴더 아래에 css파일은 css폴더 아래에 있음을 명시하는 내용' 추가
-	
+	4. home.js 를 JQeury가 아닌 순수 javascript로 작성 **homeJS.js**
+	- JSP / Spring / Spring boot / Mybatis / MariaDB 	
+	![PBL 데이터 조회 동작과정](https://user-images.githubusercontent.com/60174144/91526544-d7716b00-e93e-11ea-9f5a-4914e69d529a.jpg)

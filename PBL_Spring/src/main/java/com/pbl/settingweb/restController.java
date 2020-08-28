@@ -31,7 +31,7 @@ public class restController {
 		
 		//model.addAttribute("movieList", movieList);
 		 
-        return movieList;
+        return movieList; //RestController 이므로 return 값을 바로 return
 	}
 
 }
