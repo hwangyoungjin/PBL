@@ -23,7 +23,7 @@ public class MovieDAOImpl implements MovieDAO {
     @Inject
     private SqlSession sqlSession;
     
-    //등록된 쿼리문을 Namespace에 저장
+    //등록된 쿼리문 path를 Namespace에 저장
     private static final String Namespace = "com.pbl.mybatis.sql.test";
     
     @Override

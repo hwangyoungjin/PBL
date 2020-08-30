@@ -14,8 +14,10 @@
        class="org.springframework.jdbc.datasource.DriverManagerDataSource">
        <property name="driverClassName"
            value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
+       <!-- <property name="url"
+           value="jdbc:log4jdbc:mariadb://127.0.0.1:3306/theater"/> -->
        <property name="url"
-           value="jdbc:log4jdbc:mariadb://127.0.0.1:3306/theater"/>
+           value="jdbc:log4jdbc:mariadb://127.0.0.1:3306/"/>
        <property name="username" value="root"/>
        <property name="password" value="!soaka8525"/>
    </bean>

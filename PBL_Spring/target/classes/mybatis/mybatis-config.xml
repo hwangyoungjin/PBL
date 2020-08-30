@@ -26,7 +26,8 @@
  
     <typeAliases>
         <typeAlias type="com.pbl.vo.MovieVO" alias="movieVO" />
+        <typeAlias type="com.pbl.vo.WineVO" alias="wineVO" />
     </typeAliases>
- 
+    
  
 </configuration>
