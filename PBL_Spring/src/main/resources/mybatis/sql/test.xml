@@ -20,10 +20,14 @@
     <select id="selectMovie" resultType="movieVO">
         SELECT MOVIE_NAME, DIRECTOR, TYPES FROM THEATER.MOVIE
     </select>
-    
     <select id="selectWine" resultType="wineVO">
-        SELECT FIXED_ACIDITY, VOLATILE_ACIDITY, CITRIC_ACID, RESIDUAL_SUGAR, CHLORIDES, FREE_SULFUR_DIOXIDE, TOTAL_SULFUR_DIOXIDE, DENSITY, PH, SULPHATES, ALCOHOL, QUALITY
-         FROM WINE_QUALITY.PRODUCT_QUALITY
+        SELECT
+        AVG(fixed_acidity) as fixed_acidity, AVG(volatile_acidity) as volatile_acidity,
+        AVG(citric_acid) as citric_acid, AVG(residual_sugar) as residual_sugar, AVG(chlorides) as chlorides,
+        AVG(free_sulfur_dioxide) as free_sulfur_dioxide, AVG(total_sulfur_dioxide) as total_sulfur_dioxide, 
+        AVG(density) as density, AVG(pH) as pH, AVG(sulphates) as sulphates, AVG(alcohol) as alcohol,
+        AVG(quality) as quality
+        FROM WINE_QUALITY.PRODUCT_QUALITY
     </select>
     
 </mapper>

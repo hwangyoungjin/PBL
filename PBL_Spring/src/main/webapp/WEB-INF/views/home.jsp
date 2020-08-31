@@ -23,15 +23,8 @@
                 <th>장르</th>
             </tr>
         </thead>
-        <tbody id = "movieList">
-        <!-- Controller에서 지정한 model name을 jsp에서 ${name} 으로 사용 
-            <c:forEach items="${movieList}" var="movie">
-                <tr>
-                    <td>${movie.movie_name}</td>
-                    <td>${movie.director}</td>
-                    <td>${movie.types}</td>
-                </tr>
-            </c:forEach>-->
+        <tbody id = "movieList"> 
+        <!-- 이곳에 movieList 찍힌다. -->
         </tbody>
     </table>
  

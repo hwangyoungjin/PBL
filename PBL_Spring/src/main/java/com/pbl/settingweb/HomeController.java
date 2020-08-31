@@ -57,11 +57,12 @@ public class HomeController {
 	   
 	   logger.info("wineHome");
 	   
-	   List<WineVO> wineList = wineService.selectWine();
-	   
-	   model.addAttribute("wineList", wineList);
-	   
-	   return "wineHome.html";
+		/*
+		 * List<WineVO> wineList = wineService.selectWine();
+		 * 
+		 * model.addAttribute("wineList", wineList);
+		 */
+	   return "wine.jsp";
    }
     
 }

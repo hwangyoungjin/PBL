@@ -28,7 +28,7 @@ function load_movielist(){
                 for (var i = 0; i < movieList.length; i++) {            	
                 	tr = document.createElement('tr');
 				    td1 = document.createElement('td');
-					td1.innerHTML = movieList[i].movie_name
+					td1.innerHTML = movieList[i].movie_name;
 					tr.appendChild(td1);
 
 					td2 = document.createElement('td');
@@ -40,15 +40,14 @@ function load_movielist(){
 					tr.appendChild(td3);
 					document.getElementById('movieList').appendChild(tr);
 					console.log("완료");
-						
+					
                 }     
                 
             }
         };
-        
+        //open 후 send 해야함
         xmlhttp.open("POST", url, true); //http메서드, 비동기로 처리
         xmlhttp.setRequestHeader('Content-type', 'application/json');
         xmlhttp.send(null);
     });
-          
 }
