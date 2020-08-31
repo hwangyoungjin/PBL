@@ -20,6 +20,7 @@
 	- root-context.xml 수정
 	- mybatis-config.xml, logback.xml, test.xml(= mybatis의 mapper ) 작성
 	- 데이터 조회/처리를 위한 JAVA코드(DAO,Service,VO,Controller)를 작성
+		- **VO의 value 와 DB 값 name 동일해야함**
 	- home.jsp 수정
 
 [2주차 : 20.08.11 ~ 20.08.17]
@@ -67,16 +68,26 @@
 	![PBL 데이터 조회 동작과정](https://user-images.githubusercontent.com/60174144/91526544-d7716b00-e93e-11ea-9f5a-4914e69d529a.jpg)
 
 [4주차 : 20.08.24~20.08.31] : 총정리 차트개발
-### 차트 데이터에 활용할 데이터 만들기
 ---
 1. DB설정 및 코드 작성 & 수정
 	1. DB Schema, Table 만들고 wine_quality 데이터(.cvc)를 입력
 		- Data 다 안들어가는 문제, cvc파일의 column : product_seq(1~1599) 추가 해서 해결
 	2. WineDAO, WineService, WineVO 작성, mybatis-config.xml, test.xml, root-context.xml 추가 작성
-		- **mybatis 여러 테이블 연결 오류 [해결]**	
-			`1. root-context에서 url의 value="jdbc:log4jdbc:mariadb://127.0.0.1:3306/" 으로설정`
-			`2. test.xml에서 sql문 "~~~ FROM 스키마명.테이블명" 으로 설정`
+		- `mybatis 여러 테이블 연결 오류 [해결]`	
+			1. root-context에서 url의 value="jdbc:log4jdbc:mariadb://127.0.0.1:3306/" 으로설정
+			2. test.xml에서 sql문 "~~~ FROM 스키마명.테이블명" 으로 설정
 	3. HomeController, restController 추가작성
-		- servlet-context.xml 에서 suffix 제거 후 Conroller return값에 확장자 추가
-	4. wineHome.jsp 작성
-		- 차트선택
+		- restController 데이터 json형식 확인O
+		- Thymeleaf 적용 시도
+			1. servlet-context.xml 에서 suffix 제거 후 Conroller return값에 확장자(.jsp or .html) 추가
+			2. `ViewResolver 커스텀하는 코드에서 prefix만 적용하고 suffix는 미적용 -> .html(타임리프 적용)은 못찾는 문제 해결x`
+		- restController 데이터 차트데이터로 적용 해결X	
+	
+2. 차트선택 ( 진행 중 )
+	1. 차트 
+		- wineChart1.js
+		- wineChart1.css
+		- wine.jsp
+		.
+		.
+		.
