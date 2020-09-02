@@ -96,6 +96,8 @@
 
 	5. 결과
 	---
+	![PIE 차트 데이터 조회 동작과정](https://user-images.githubusercontent.com/60174144/92009267-39890080-ed83-11ea-8c38-384e912513d3.jpg)
+	---
 	![PIEChart](https://user-images.githubusercontent.com/60174144/91726660-95188a00-ebdb-11ea-9150-e1397058921a.png)
 
 	<pre>
