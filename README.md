@@ -1,5 +1,6 @@
 # PBL
 ## Spring을 활용한 시각화 페이지(차트) 구축
+## 사용기술 : html + css+ vanilla js + JSP + (d3.js 오픈소스) + Spring + mybatis + mariaDB 
 ### Project Based Learning - 직무부트캠프 
 
 [1주차 : 20.08.06 ~ 20.08.10]
