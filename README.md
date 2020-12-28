@@ -1,6 +1,6 @@
 # PBL
 ## Spring을 활용한 시각화 페이지(차트) 구축
-## 사용기술 : html + css+ vanilla js + JSP + (d3.js 오픈소스) + Spring + mybatis + mariaDB 
+## Tech Stack(기술 스택) : html + css+ vanilla js + JSP + (d3.js 오픈소스) + Spring + mybatis + mariaDB 
 ### Project Based Learning - 직무부트캠프 
 
 [1주차 : 20.08.06 ~ 20.08.10]
@@ -100,6 +100,7 @@
 	![PIE 차트 데이터 조회 동작과정](https://user-images.githubusercontent.com/60174144/92009267-39890080-ed83-11ea-8c38-384e912513d3.jpg)
 	---
 	![PIEChart](https://user-images.githubusercontent.com/60174144/91726660-95188a00-ebdb-11ea-9150-e1397058921a.png)
+
 
 	<pre>
 	<code>
