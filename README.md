@@ -101,13 +101,3 @@
 	---
 	![PIEChart](https://user-images.githubusercontent.com/60174144/91726660-95188a00-ebdb-11ea-9150-e1397058921a.png)
 
-
-	<pre>
-	<code>
-	**질문사항**
-	1. DB column 이름, DAO에서 조회할때 console에 찍히는 column 이름, VO 변수명, SQL 코드 모두 동일한데   
-	restConroller의 반환되는 값 url로 확인해보면 이름이 다른 column 2개 존재하는데 이유를 모르겠습니다. 
-	- (volatile_acidity) -> volatile_acidit으로 표시됨
-	- (sulphates) -> sulphate으로 표시됨
-	</code>
-	</pre>	
